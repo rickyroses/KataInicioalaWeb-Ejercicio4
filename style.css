@@ -1,0 +1,191 @@
+html {
+    display: flex;
+    justify-content: center;
+}
+body{
+    display: flex;
+    box-sizing: content-box;
+    justify-content: center;
+    margin-top: 35px;
+    width: 1000px;
+    height: 500px;
+}
+
+.container {
+    display: flex;
+    position: relative;
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+}
+
+
+.image-profile{
+    display: block;
+    width: 500px;
+    height: 500px;
+    filter: grayscale(100%);
+}
+
+.overlay {
+    display: flex;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+
+.profile-description{
+    display: list-item;
+    align-content: center;
+    background-color: #012030;
+    padding: 5px;
+}
+
+.laboral{
+    align-content: center;
+    background-color: #13678A;
+    padding: 5px;
+}
+
+.academia{
+    align-content: center;
+    background-color: #45C4B0;
+    padding: 5px;
+}
+
+.skills{
+    align-content: center;
+    background-color: #9AEBA3;
+    padding: 5px;
+}
+main{
+    display:flex;
+    /* box-sizing: border-box; */
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+}
+h6{
+    color: white;
+
+}
+#acerca{
+    color: #9AEBA3;
+}
+
+#experiencia{
+    color: #45C4B0;
+}
+
+#acad{
+    color: #13678A;
+}
+
+#sk{
+    color: #012030;
+}
+
+
+h3{
+    color: white;
+    padding: 0%;
+    font-weight: lighter;
+    margin-block-end: 2%;
+    background-color: darkgrey;
+}
+
+h4{
+    color: white;
+    padding: 0%;
+    font-weight: lighter;
+    margin-block: 0%;
+
+}
+h5{
+    color: white;
+    padding: 0%;
+    font-weight: lighter;
+    margin-block: 5px;
+}
+.laboral h6{
+    margin-block: 2%;
+}
+
+ul li{
+    display: inline-block;
+}
+ul{
+    padding-inline-start: 0px;
+    color: white;
+
+}
+ol{
+    padding-inline-start: 0px;
+    justify-content: center;
+}
+ol li{
+    display: inline-block;
+}
+
+a:link { 
+    text-decoration: none; 
+} 
+a:visited { 
+    text-decoration: none; 
+} 
+a:hover { 
+    text-decoration: none; 
+} 
+a:active { 
+    text-decoration: none; 
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-android {
+    background: #a4c639;
+    color: white;
+}
